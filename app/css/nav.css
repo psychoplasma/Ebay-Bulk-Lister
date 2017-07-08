@@ -1,0 +1,93 @@
+.nav-left {
+  height:100vh;
+  width: 340px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: rgb(112, 112, 112);
+  border-right: 1px solid hsla(0,0%,0%,.08);
+  background-color: rgb(245, 245, 245);
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav-left::-webkit-scrollbar {
+  width: 12px;
+  margin-right: 0.2rem;
+}
+.nav-left::-webkit-scrollbar-button:single-button {
+  background-color: rgb(138, 138, 138);
+}
+.nav-left::-webkit-scrollbar-track {
+  background-color: rgb(238, 238, 238);
+}
+.nav-left::-webkit-scrollbar-thumb {
+  margin-right: 0.2rem;
+  background-color: rgb(138, 138, 138);
+}
+
+.nav-title {
+  padding: .5em 0;
+}
+
+.nav-item {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  min-height: 100px;
+}
+
+.nav-item:hover {
+  background-color: hsla(0,0%,0%,.08);
+}
+
+.nav-item:active {
+  background-color: hsla(0,0%,0%,.2);
+}
+
+.nav-item-selected {
+  background-color: hsla(120,60%,20%,.5);
+}
+
+.nav-btn {
+  width: 100%;
+  padding: .3rem;
+  padding-left: calc(2rem + 16px + .5rem);
+  line-height: 2;
+  text-align: left;
+  font: inherit;
+  font-size: 13px;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: default;
+  outline: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.nav-icon {
+  height: 14px;
+  vertical-align: top;
+  margin-right: .25rem;
+}
+
+.nav-header {
+  position: relative;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid hsla(0,0%,0%,.08);
+  text-align: center;
+}
+
+.nav-footer {
+  display: flex;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-top: 1px solid hsla(0,0%,0%,.08);
+  text-align: center;
+  align-self: end;
+}

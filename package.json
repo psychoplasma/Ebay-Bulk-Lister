@@ -1,0 +1,16 @@
+{
+  "name": "EbayBulkLister",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "node-notifier": "^5.1.2",
+    "node-schedule": "^1.2.1"
+  }
+}

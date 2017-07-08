@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ebay Bulk Lister</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="./../../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./../css/nav.css" />
+		<link rel="import" href="action.html">
+		<link rel="import" href="payment.html">
+		<link rel="import" href="product_info.html">
+		<link rel="import" href="return_policy.html">
+		<link rel="import" href="shipping.html">
+
+		<style>
+			body {
+				display: flex;
+			}
+
+			h1 {
+				font-size: 1.5em;
+			}
+
+			.my-ui-text {
+	      -webkit-user-select:none;
+	  	}
+
+			.content {
+				flex: 1;
+				position: relative;
+				overflow: hidden;
+				visibility: visible;;
+				opacity: 1;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<nav class="nav-left">
+			<header class="nav-header">
+				<h1 class="nav-title">
+					<strong>Ebay</strong> Bulk Lister
+				</h1>
+			</header>
+			<div>
+				<div class="nav-item">
+					<button class="nav-btn">
+						<h5><img class="nav-icon" src="./../images/action_icon.png">
+						<b>Action</b></h5>
+					</button>
+				</div>
+			</div>
+			<div>
+				<div class="nav-item">
+					<button class="nav-btn">
+						<h5><img class="nav-icon" src="./../images/product_icon.png">
+						<b>Product Info</b></h5>
+					</button>
+				</div>
+			</div>
+			<div>
+				<div class="nav-item">
+					<button class="nav-btn">
+						<h5><img class="nav-icon" src="./../images/payment_icon.png">
+						<b>Payment And Pricing</b></h5>
+					</button>
+				</div>
+			</div>
+			<div>
+				<div class="nav-item">
+					<button class="nav-btn">
+						<h5><img class="nav-icon" src="./../images/shipping_icon.png">
+						<b>Shipping Info</b></h5>
+					</button>
+				</div>
+			</div>
+			<div>
+				<div class="nav-item">
+					<button class="nav-btn">
+						<h5><img class="nav-icon" src="./../images/return_icon.png">
+						<b>Return Policy</b></h5>
+					</button>
+				</div>
+			</div>
+			<footer class="nav-footer">This is footer</footer>
+		</nav>
+
+		<main class="content">
+		</main>
+
+		<script>
+			//require('./../js/nav')
+			//require('./../js/exports')
+		</script>
+		<script type="text/javascript" src="./../js/mainPage.js"></script>
+
+	</body>
+</html>
