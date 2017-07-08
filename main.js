@@ -23,8 +23,7 @@ app.on('ready', () => {
 			}
 	})
 
-//	loginWindow.loadURL('file://' + __dirname + '/app/html/login.html')
-	loginWindow.loadURL('file://' + __dirname + '/app/html/mainPage.html')
+	loginWindow.loadURL('file://' + __dirname + '/app/html/login.html')
 	loginWindow.openDevTools()
 })
 

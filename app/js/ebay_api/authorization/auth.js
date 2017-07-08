@@ -1,15 +1,16 @@
 window.$ = window.jQuery = require('./../../../../bower_components/jquery/dist/jquery.min.js')
 const DataParser = require('./../../support/dataParser.js')
 const EbayToken = require('./token.js')
+const EbayCredentials = require("../../../../ebayCredentials.json")
 
 /* API Endpoints */
 const RESOURCE_USER_AUTH = "https://api.sandbox.ebay.com/identity/v1/oauth2/token"
 const RESOURCE_API_SCOPE = "https://api.ebay.com/oauth/api_scope"
 
 /* EBAY application credentials */
-const REDIRECT_URI = <YOUR_REDIRECT_URI>
-const CLIENT_ID = <YOUR_EBAY_CLIENT_ID>
-const CLIENT_SECRET = <YOUR_EBAY_SECRET>
+const REDIRECT_URI = EbayCredentials.redirectURI
+const CLIENT_ID = EbayCredentials.clientID
+const CLIENT_SECRET = EbayCredentials.clientSecret
 
 /* Attributes */
 const ATTR_AUTH_STATUS = "isAuthSuccessful"
